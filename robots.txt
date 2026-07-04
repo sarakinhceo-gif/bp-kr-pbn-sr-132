@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kr-pbn-sr-132.node-link.shop/sitemap.xml
+Sitemap: https://banpo-massage-compare.node-link.shop/sitemap.xml
