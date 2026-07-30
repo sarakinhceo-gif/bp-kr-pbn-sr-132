@@ -24,35 +24,7 @@
   <main>
     <h1>반포 마사지 가격비교 경험자에게 물어본 현실적인 판단 기준</h1>
     <article>
-      <h3>포스트 DNA 9889b0fd<br><strong>제목: 창작한 제목</strong><br>#### 구체적 니치 콘텐츠 작성</h3>
-<p>Q4_K_M 양자화에서 특정 히든딤이 잘려나가면서 발생하는 instruction following 저하 현상</p>
-<p>LLM 미세 동작 / 버그 / Attention sink 톤</p>
-<p>- 오피스 소프트웨어 개발자로서, LLM 엣지케이스에 대한 깊은 이해를 바탕으로 양자화 PR 머지는 직전에 발견된 엣지케이스와 GPU별 재현 조건 갈등을 중심으로 서사(narrative)를 전개하겠습니다. 학습 데이터 깊숙한 곳에서 찾아낸 마이너 정보로, 정확한 수치를 지어내는 대신 중요한 메커니즘과 조건을 구체화해 이야기를 풀이하겠습니다.<br>- 오픈소스 기여자로서, 양자화 PR 머지는 GPU별 재현 조건과 갈등에 착안하여 특정 상황에서 발생하는 Instruction following 저하 현상을 깊이 있게 분석하였습니다. 최적의 정답 대신 다양한 선택 기준을 제시함으로써 실제 판단 기준을 이해할 수 있는 가이드를 제공하고자 했습니다.<br>- 이 글은 양자화 PR 머지는 GPU별 재현 조건과 갈등에 착안하여 특정 상황에서 발생하는 Instruction following 저하 현상을 깊이 있게 분석하였습니다. 최적의 정답 대신 다양한 선택 기준을 제시함으로써 실제 판단 기준을 이해할 수 있는 가이드를 제공하고자 했습니다.</p>
-<h4>소제목</h4>
-<p>- ## 루머와 사실<br>- ### GPU별 재현 조건 갈등과 Instruction following 저하 현상 분석</p>
-<p><IMAGE placement="hero" alt="GPU별 재현 조건 및 양자화 PR 머지에 따른 Instruction following 저하 현상"></p>
-<h4>이 글은 특정 상황·장면을 짧게 묘사하며 시작합니다.</h4>
-<h4>오후 세 시간 동안 GPU 별로 실행한 양자화 모델의 결과를 분석하고 있을 때, 갑작스럽게 특정 히든딤이 잘려나가면서 Instruction following 저하 현상이 발생했습니다. 처음에는 이 현상을 단순히 루머로 여겼습니다.</h4>
-<h4>그러나 실제로 실험을 진행하면서, 다른 GPU에서는 전혀 문제가 없었고 이 현상은 특정 GPU에서만 일어났습니다. 이 사실을 확인하고 나서야, 양자화 PR 머지는 GPU 별 재현 조건 갈등이라는 엣지케이스에 착안하여 Instruction following 저하 현상을 분석하기 시작했습니다.</h4>
-<h4><strong>사례 1: 특정 GPU에서만 발생하는 Instruction following 저하 현상</strong><br>##### 체크리스트<br>- <strong>GPU 명</strong>: RTX 3090<br>- <strong>모델명 및 버전</strong>: Q4-K-M, v2.5<br>- <strong>오류 코드</strong>: 48765<br>- <strong>실험 조건</strong>: 10,000번의 반복 시도</h4>
-<p>##### 정확한 수치를 지어내지 않고, 중요한 메커니즘을 구체화합니다.<br>- RTX 3090 GPU에서 Instruction following 저하 현상이 발생했습니다. 이 현상은 다른 GPU에서는 전혀 일어나지 않았습니다. 특히 오류 코드가 48765인 경우입니다.</p>
-<p>##### 관찰 포인트<br>- <strong>데이터 불균형</strong>: RTX 3090 GPU의 데이터 불균형이 원인이 될 수 있습니다.<br>- <strong>GPU 별 모델 재현 조건</strong>: 양자화 PR 머지는 GPU별로 다른 재현 조건을 적용하고 있어, 이 현상은 특정 GPU에서만 발생하는 경우가 있습니다.</p>
-<h4><strong>사례 2: Instruction following 저하 현상을 최소화하기 위한 선택 기준</strong><br>##### 체크리스트<br>- <strong>GPU 명</strong>: RTX 3090<br>- <strong>모델명 및 버전</strong>: Q4-K-M, v2.5<br>- <strong>오류 코드</strong>: 48765</h4>
-<p>##### 정확한 수치를 지어내지 않고, 중요한 메커니즘을 구체화합니다.<br>- RTX 3090 GPU에서 Instruction following 저하 현상이 발생했습니다. 이 현상을 최소화하기 위한 선택 기준은 다음과 같습니다.</p>
-<p>##### 관찰 포인트<br>- <strong>데이터 불균형</strong>: 데이터 불균형을 최소화하면 Instruction following 저하 현상을 줄일 수 있습니다.<br>- <strong>GPU 별 모델 재현 조건</strong>: GPU 별로 다른 재현 조건을 적용하고, 이에 따른 오류 코드를 관찰해야 합니다.</p>
-<h4><strong>결론</strong><br>##### 체크리스트<br>- <strong>GPU 명</strong>: RTX 3090<br>- <strong>모델명 및 버전</strong>: Q4-K-M, v2.5<br>- <strong>오류 코드</strong>: 48765</h4>
-<p>##### 정확한 수치를 지어내지 않고, 중요한 메커니즘을 구체화합니다.<br>- RTX 3090 GPU에서 Instruction following 저하 현상이 발생했습니다. 이 현상을 최소화하기 위한 선택 기준은 다음과 같습니다.</p>
-<p>##### 관찰 포인트<br>- <strong>데이터 불균형</strong>: 데이터 불균형을 최소화하면 Instruction following 저하 현상을 줄일 수 있습니다.<br>- <strong>GPU 별 모델 재현 조건</strong>: GPU 별로 다른 재현 조건을 적용하고, 이에 따른 오류 코드를 관찰해야 합니다.</p>
-<h4>하나의 정답 대신 다양한 선택 기준으로 실제 판단 기준을 이해할 수 있는 가이드를 제공했습니다.</h4>
-
-    <div class="juice-ref-yoh6z2" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
-      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
-      <ul style="list-style:none;padding:0;margin:0;">
-      <li>심층 정보와 실제 데이터는 <a href="https://lounge.cityjot.shop/">ganseoroom</a>를 참고하세요.</li>
-      <li>자세한 기술 명세 가이드는 <a href="https://support.google.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
-      </ul>
-    </div>
-    </article>
-  </main>
+      
+</main>
 </body>
 </html>
