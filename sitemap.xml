@@ -1,326 +1,272 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://banpo-massage-compare.node-link.shop/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://banpo-massage-compare.node-link.shop/</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://banpo-massage-compare.node-link.shop/about.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/checklist-001-fcxbsn.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/checklist-002-1co6ssp.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/checklist-004-ujtty4.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/compare-001-1kboomv.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/compare-003-1pkq4a1.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/field_note-001-1qibt0y.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/field_note-001-obwy0s.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-001-1njxmq6.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-001-1w7782m.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-001-jhgoer.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-002-1t7zdxk.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-002-jbumq6.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/interview-001-b7q7fh.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/interview-001-on8717.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/interview-002-pyc0xw.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/myth-001-v2qqof.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/myth-002-3kha7r.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/myth-005-otmlr.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/qa-002-1njxmq6.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/qa-002-1t3fuh0.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/review-002-yig94w.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-001-ug4yji.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-002-1bfuzcl.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-002-on8717.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-003-1udxlyn.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260704-148.html</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260705-313.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260705-1195.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260705-313.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0308.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0309.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0310.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0311.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0312.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0313.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0314.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0315.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0316.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0317.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0318.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0319.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260721-0320.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0045.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0046.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0047.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0048.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0049.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0050.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0051.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0052.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0053.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0054.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://banpo-massage-compare.node-link.shop/posts/gemini-coverage-20260722-0055.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-001-1njxmq6.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-001-1w7782m.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-001-jhgoer.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-002-1t7zdxk.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/guide-002-jbumq6.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/interview-001-b7q7fh.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/interview-001-on8717.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/interview-002-pyc0xw.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/myth-001-v2qqof.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/myth-002-3kha7r.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/myth-005-otmlr.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/qa-002-1njxmq6.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/qa-002-1t3fuh0.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/review-002-yig94w.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-001-ug4yji.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-002-1bfuzcl.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-002-on8717.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://banpo-massage-compare.node-link.shop/posts/t3link-003-1udxlyn.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
