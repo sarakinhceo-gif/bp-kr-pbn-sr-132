@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>47 분의 지연 비용 분석, 반포 마사지 가격 비교처럼 엣지 상태를 확인하라</title>
-  <link rel="canonical" href="https://banpo-massage-compare.node-link.shop/posts/guide-001-jhgoer.html">
-  <style>
-    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
-    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
-    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
-    p { margin: 0 0 1em; }
-    a { color: #3182ce; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
-  <meta property="og:url" content="https://banpo-massage-compare.node-link.shop/posts/guide-001-jhgoer.html">
-  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>47 분의 지연 비용 분석, 반포 마사지 가격 비교처럼 엣지 상태를 확인하라</title>
+ <link rel="canonical" href="https://banpo-massage-compare.node-link.shop/posts/guide-001-jhgoer.html">
+ <style>
+ body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+ h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+ h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+ h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+ p { margin: 0 0 1em; }
+ a { color: #3182ce; text-decoration: none; }
+ a:hover { text-decoration: underline; }
+ </style>
+ <meta property="og:url" content="https://banpo-massage-compare.node-link.shop/posts/guide-001-jhgoer.html">
+ <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <meta property="og:title" content="47 분의 지연 비용 분석, 반포 마사지 가격 비교처럼 엣지 상태를 확인하라">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-  <header>
-    <a href="../index.html">← 목록으로 돌아가기</a>
-  </header>
-  <main>
-    <h1>47 분의 지연 비용 분석, 반포 마사지 가격 비교처럼 엣지 상태를 확인하라</h1>
-    <article>
-      <p>*"예약 인스턴스 구매 직전 가격 인하 공지를 놓쳐서 발생한 손실"이라는 보고서를 본 적 있으신가?*  <br>재무팀에서 자주 듣는 이야기가 바로 이 부분이다. 기술적 안정성만 신경 쓰면 실제 비용 흐름을 놓치게 된다. Cloudflare 캐시 리저브 무효화 지연 사례도 마찬가지다.</p>
+ <header>
+ <a href="./index.html">← 목록으로 돌아가기</a>
+ </header>
+ <main>
+ <h1>47 분의 지연 비용 분석, 반포 마사지 가격 비교처럼 엣지 상태를 확인하라</h1>
+ <article>
+ <p>*"예약 인스턴스 구매 직전 가격 인하 공지를 놓쳐서 발생한 손실"이라는 보고서를 본 적 있으신가?* <br>재무팀에서 자주 듣는 이야기가 바로 이 부분이다. 기술적 안정성만 신경 쓰면 실제 비용 흐름을 놓치게 된다. Cloudflare 캐시 리저브 무효화 지연 사례도 마찬가지다.</p>
 <h2>47 분의 엣지 지연 현상 진단<br>특정 엣지 로케이션에서만 최대 47 분까지 무효화가 늦어지는 건 우연한 버그가 아니다. <code>cache-reserve</code> 기능을 사용하는 경우, 특정 지리적 영역에서 TTL 갱신이 지연될 수 있다. 이는 모든 인스턴스에 해당하지 않으며, 주로 트래픽 집중도가 높은 엣지에서 더 뚜렷하게 관찰된다.</h2>
 <p>관전자 입장에서 보면 단순 시간 차이가 아니라 비용 발생 요인이다. 버저닝을 고려한 S3 환경에서는 캐시 무효화가 늦어질수록 중복 데이터 저장비가 쌓인다. 즉, 기술적 지연이 재무적 손실로 직접 연결되는 구조다.</p>
 <h2>비교: 클라우드 캐시 vs 마사지 예약<br>같은 목표를 두고 두 가지 접근 경로를 시도해 봤다. 하나는 엣지 상태 확인 없이 바로 배포하는 경우이고, 다른 하나는 <code>polling</code>을 통해 상태를 체크한 후 조치하는 것이다.</h2>
 <p>반포 마사지 가격을 비교하기 전에 여러 업체를 둘러보는 것처럼, 엣지 상태도 사전에 점검해야 한다. 첫 번째 경로에서는 47 분 지연으로 인한 캐시 누수를 겪었지만, 두 번째 경로는 정상 갱신이 보장됐다. 결과적으로 버저닝 비용이 약 15% 감소했다.</p>
 <h2>실패 방지 및 다음 단계<br>다음 행동을 제안하면 된다. 단순히 설정을 변경하는 게 아니라, 모니터링 대상을 확대하는 것부터 시작하라. 예를 들어 특정 엣지 로그를 주기적으로 샘플링하여 <code>stale</code> 비율을 추적한다.</h2>
 <p>그리고 캐시 무효화 지연 시 대안을 마련할 필요가 있다. 만약 지연이 지속되면 <code>TTL</code> 강제로 낮추거나, 다른 CDN 계층으로 일시 전환하는 계획까지 짠다. 중요한 건 문제 발생 후의 대응 속도다.</p>
-<p><img src="../assets/bpaas_00008_.webp" alt="Cloudflare Dashboard Cost Analysis & Edge Cache Latency" loading="lazy" width="1344" height="768"></p>
+<p><img src="./assets/반포 마사지 안내_00008_.webp" alt="Cloudflare Dashboard Cost Analysis & Edge Cache Latency" loading="lazy" width="1344" height="768"></p>
 <p>마지막으로 정기적인 비용 감사와 병행해라. 기술적 지연은 눈에 잘 띄지 않지만, 누적되는 금액은 무시할 수 없다. 오늘 당장 로그를 한 번 확인해 보는 건 어떨까?</p>
 
-    <div class="juice-ref-q6qw2e" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
-      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
-      <ul style="list-style:none;padding:0;margin:0;">
-      <li>심층 정보와 실제 데이터는 <a href="https://watchdog.pickdesk.online/">gangseo-doorway2</a>를 참고하세요.</li>
-      <li>자세한 기술 명세 가이드는 <a href="https://support.google.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
-      </ul>
-    </div>
-    </article>
-  </main>
+ <div class="juice-ref-q6qw2e" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+ <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+ <ul style="list-style:none;padding:0;margin:0;">
+ <li>심층 정보와 실제 데이터는 <a href="https://watchdog.pickdesk.online/">gangseo-doorway2</a>를 참고하세요.</li>
+ <li>자세한 기술 명세 가이드는 <a href="https://support.google.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+ </ul>
+ </div>
+ </article>
+ </main>
 </body>
 </html>
